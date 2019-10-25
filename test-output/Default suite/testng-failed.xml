@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="sweta_phoenix_Test.Claims_creation">
+        <methods>
+          <include name="suitesetup"/>
+          <include name="writeReport"/>
+          <include name="create_report_workbook"/>
+          <include name="Initialise"/>
+          <include name="createClaim"/>
+        </methods>
+      </class> <!-- sweta_phoenix_Test.Claims_creation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
